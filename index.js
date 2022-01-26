@@ -16,6 +16,9 @@ const winCombos = [
 
 const cells = document.querySelectorAll('.cell');
 
+//replay button event
+document.getElementById('replay').addEventListener('click', startGame, false);
+
 startGame();
 
 function startGame() {
